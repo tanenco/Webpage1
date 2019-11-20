@@ -166,6 +166,20 @@ footer nav a {
 footer a:hover {
   color: #00c0ff;
 }
+html, body {
+  height: 100%;
+}
+#page-wrap {
+  min-height: 100%;
+  margin-bottom: -210px;
+}
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+#foot-wrap, #page-wrap:after {
+  height: 210px;
+}
 /*Navigation---------------------------------------------*/
 nav ul {
   margin: 0;
